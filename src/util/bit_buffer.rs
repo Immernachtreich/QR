@@ -1,3 +1,4 @@
+#[derive(Debug)]
 pub struct BitBuffer {
     data: Vec<u8>,
     bit_len: usize,
